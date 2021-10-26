@@ -1,26 +1,28 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Modeling And Simulation Lab
+title: MnS | 3 Words
+description: One or Two Sentences
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - Modeling
+  - Simulation
+  - Data Analytics
+  - Artificial Intelligence
+  - Reinforcement Learning
 show_hero: true
 menu:
   - title: Home
     url: /
-  - title: About
+  - title: AboutUs
     url: /about
-  - title: Contact
+  - title: People
     url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@test.com
+  - title: Projects
+    url: /
+  - title: Publications
+    url: /contact
+email: simon.anderson.tech@gmail.com
 # See: https://disqus.com/
-disqus_username: disqus_username
+disqus_username: nonamed
 # Contact Form Setting
 # See: https://formspree.io/
-formspree_form_id: formspree_form_id
+formspree_form_id: nonamed
+paginate: 15
