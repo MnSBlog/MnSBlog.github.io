@@ -9,11 +9,11 @@ permalink: /people/
 
 박상철 / 장대순
 
-# Ph.D. Candidates
+# Ph.D. Students
 
 이관우 / 이기한 / 김동욱
 
-# M.S. Candidates
+# M.S. Students
 
 그 외 인원들 인턴포함?하나?
 

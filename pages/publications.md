@@ -9,8 +9,8 @@ permalink: /publications/
 <summary>2021</summary>
 <div markdown="1">
 
-
 ## 국제학술
+
 
 - [논문] 박상철, 강민구, Preventive Maintenance of Autonomous Control Systems based on Remaining Useful Life , INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH AND TECHNOLOGY , Vol.3 , pp.198 -204 (Apr, 2021)
 
@@ -21,14 +21,13 @@ permalink: /publications/
 ## 특허 및 기타
 
 - [프로그램] 양현, 김동욱, 박상철, 송시용, 이관우, 이기한, 장대순, 제조지식기반 RPA S/W (등록) (C-2021-041101) (Oct, 2021)
-
 - [프로그램] 장대순, 김동욱, 박상철, 송시용, 양현, 이관우, 이기한, 디지털트윈 플랫폼 V0.5 (등록) (C-2021-040430) (Oct, 2021)
-
 - [특허] 장중순, 박상철, 박희도, 가용 정보 품질 우선 순위 기반 신뢰성 예측 방법 (출원) (10-2021-0019513) (Feb, 2021)
 
-  </div>
-
+</div>
 </details>
+
+
 
 <details>
     <summary>2020</summary>
