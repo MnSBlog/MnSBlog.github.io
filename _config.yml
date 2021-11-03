@@ -1,5 +1,5 @@
 # Site Settings
-name: Modeling & Simulation Lab
+name: Modeling And Simulation Lab
 title: MnS | 3 Words
 description: One or Two Sentences
 tags:
@@ -19,8 +19,8 @@ menu:
   - title: Projects
     url: /
   - title: Publications
-    url: /contact
-  - title: ContactUs
+    url: /
+  - title: Contact Us
     url: /contact
 email: simon.anderson.tech@gmail.com
 # See: https://disqus.com/
