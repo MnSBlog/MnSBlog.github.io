@@ -14,10 +14,12 @@ menu:
   - title: AboutUs
     url: /about
   - title: People
-    url: /contact
+    url: /people
   - title: Projects
     url: /
   - title: Publications
+    url: /
+  - title: Contact Us
     url: /contact
 email: simon.anderson.tech@gmail.com
 # See: https://disqus.com/
