@@ -1,8 +1,8 @@
 ---
 layout: page
-title: People
-description: students.
-permalink: /people/
+title: Alumni
+description: Alumni.
+permalink: /alumni/
 
 ---
 
