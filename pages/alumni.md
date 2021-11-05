@@ -12,6 +12,10 @@ permalink: /people/
 
 
 
+# M.D.
+
+
+
 <img src="D:\MnS\MnSBlog\assets\img\alumni\HD.jpg" height="330px" width="250px" align="left">
 
 ## **박희도(Peasure Island Park)**
@@ -19,10 +23,6 @@ permalink: /people/
 #### `Research Interests:` 
 
 등록예정
-
-
-
-# M.D.
 
 
 
