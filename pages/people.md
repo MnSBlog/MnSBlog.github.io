@@ -201,11 +201,11 @@ Semiconductor something
 
 #### `Research Interests:` 
 
-Drinking
+1
 
-Sleeping
+2
 
-#### `E-mail` : - something@ajou.ac.kr - something@gamil.com 
+#### `E-mail` : - huyi35@ajou.ac.kr - choalsrn3@naver.com 
 
 
 
