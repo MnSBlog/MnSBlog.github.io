@@ -213,8 +213,6 @@ Semiconductor something
 
 
 
-이병선 장승환 전우성
-
 <img src="./../assets/img/people/ByungSun.jpg" height="400px" width="400px" align="left">
 
 ## **이병선(Byungsun Lee)**
