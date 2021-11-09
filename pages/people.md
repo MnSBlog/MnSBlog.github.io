@@ -223,7 +223,7 @@ First thing
 
 two
 
-#### `E-mail` : - tjs5007@ajou.ac.kr - something@gamil.com 
+#### `E-mail` : - tjs5007@ajou.ac.kr - tjs5007@naver.com
 
 ---
 
