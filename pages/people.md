@@ -251,4 +251,4 @@ First thing
 
 two
 
-#### `E-mail` : - woose98@ajou.ac.kr - something@gamil.com 
+#### `E-mail` : - woose98@ajou.ac.kr - jws5022@naver.com
