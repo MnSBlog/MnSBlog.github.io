@@ -213,7 +213,7 @@ Semiconductor something
 
 
 
-<img src="./../assets/img/people/ByungSun.jpg" height="400px" width="400px" align="left">
+<img src="./../assets/img/people/ByungSun.jpg" height="300px" width="250px" align="left">
 
 ## **이병선(Byungsun Lee)**
 
