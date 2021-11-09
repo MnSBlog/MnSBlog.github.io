@@ -103,11 +103,11 @@ other one
 
 #### `Research Interests:` 
 
-first_
+Estimation of Electronic components RUL(Remaining Useful Life)
 
-second_
+PHM(Prognostics and Health Management), ADT(Accelerated Degradation Test)
 
-#### `E-mail` : - tjswo2770@ajou.ac.kr - null@gmail.com 
+#### `E-mail` : - tjswo2770@ajou.ac.kr - dltjswo273@naver.com 
 
 ---
 
