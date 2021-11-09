@@ -149,7 +149,7 @@ Drinking
 
 Sleeping
 
-#### `E-mail` : - something@ajou.ac.kr - something@gamil.com 
+#### `E-mail` : - didgus51@ajou.ac.kr - yanghyun51@naver.com
 
 ---
 
