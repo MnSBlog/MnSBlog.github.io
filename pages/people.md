@@ -237,7 +237,7 @@ First thing
 
 two
 
-#### `E-mail` : - nick9808@ajou.ac.kr - something@gamil.com 
+#### `E-mail` : - nick9808@ajou.ac.kr - kylee9808@gmail.com
 
 ---
 
