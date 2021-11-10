@@ -12,6 +12,7 @@ tags:
   - Convex Optimization
   - Analytically method
   - Deviation
+math: true
 author: 안상현
 ---
 
@@ -28,6 +29,7 @@ author: 안상현
 먼저, `Duality Problem`에 접근하기 전에 `Convex Optimization` 에서의 표준 표현식을 보겠습니다.
 
 
+
 $$
 \begin{array}{l}
 \min &f(x)\\
@@ -39,6 +41,7 @@ s.t. &g_i(x) \le 0,\ i=1,\dots,m\\
 $$
 
 
+
 여기서 표현하는 $$ g_i(x) $$ 는 `Inequality constraints` 이며, $$ h_i(x) $$ 는 `Homologous or Equality constraints` 입니다. 각 m개와 q개 만큼 제약 조건이 존재합니다. 그러나 이런 모습을 갖췄다고 `Convex Problem`  이라 하지 않습니다.
 
 ## Satisfied conditions
@@ -46,6 +49,7 @@ $$
 `Objective function` = `Convex function` 이면서 `Constraints` = `Convex Set` 이여야 합니다. 다시 말하면 `Convexity function` 으로 정의되며 `Constraints` 은  `Feasible` 영역안에 들어오는지 한다는 얘기입니다. 그러니 사전 지식으로서 필요한 `Convex function` 인지 확인하는 `Convexity test` 를 통하여, 복습을 하겠습니다.
 
 ##  Convex Function
+
 
 $$
 \text{Convex Function:}\\
@@ -56,6 +60,8 @@ f(ax+(1-a)y)\ge af(x)+(1-a)f(y)\\
 \\
 \forall\ x, y, 0\le a\le 1
 $$
+
+
 
 `Convex, Concave` 에 대한 기본이 되는 구분식입니다. **우변**이 의미하는 바는 두 지점(a로서 갈리는)의 합을 의미하는 데요. 두 지점의 합은 결국 임의의 두 지점의 중간 부분을 얘기하게 됩니다. **결론적으로 임의의 두 점을 잇는 직선의 가운데 지점과 동일한 f(x)의 값이 작으면 Convex 크면 Concave** 입니다. Convex는 아무래도 Cup 모양이고, Concave는 Cap 모양이라 직선을 그어 판단할 수 있죠. **같다는 의미가 빠지면 Strictly Concave / Convex 있으면 그냥 Concave / Convex** 입니다.  
 
@@ -150,8 +156,6 @@ $$
 변환하여 알 수 있는 방법들로는 `Intersection`, `Affine functions`, `Perspective function`, `Linear-fractional functions` 가 있죠. 
 
 - **Intersection:**
-
-d
 
 - **Affine function:**
 - **Perspective function**
