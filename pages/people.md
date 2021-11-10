@@ -103,11 +103,11 @@ other one
 
 #### `Research Interests:` 
 
-first_
+Estimation of Electronic components RUL(Remaining Useful Life)
 
-second_
+PHM(Prognostics and Health Management), ADT(Accelerated Degradation Test)
 
-#### `E-mail` : - tjswo2770@ajou.ac.kr - null@gmail.com 
+#### `E-mail` : - tjswo2770@ajou.ac.kr - dltjswo273@naver.com 
 
 ---
 
@@ -149,7 +149,7 @@ Drinking
 
 Sleeping
 
-#### `E-mail` : - something@ajou.ac.kr - something@gamil.com 
+#### `E-mail` : - didgus51@ajou.ac.kr - yanghyun51@naver.com
 
 ---
 
@@ -213,7 +213,7 @@ Semiconductor something
 
 
 
-<img src="./../assets/img/people/ByungSun.jpg" height="400px" width="400px" align="left">
+<img src="./../assets/img/people/ByungSun.jpg" height="300px" width="250px" align="left">
 
 ## **이병선(Byungsun Lee)**
 
@@ -223,7 +223,7 @@ First thing
 
 two
 
-#### `E-mail` : - tjs5007@ajou.ac.kr - something@gamil.com 
+#### `E-mail` : - tjs5007@ajou.ac.kr - tjs5007@naver.com
 
 ---
 
@@ -237,7 +237,7 @@ First thing
 
 two
 
-#### `E-mail` : - nick9808@ajou.ac.kr - something@gamil.com 
+#### `E-mail` : - nick9808@ajou.ac.kr - kylee9808@gmail.com
 
 ---
 
@@ -251,4 +251,4 @@ First thing
 
 two
 
-#### `E-mail` : - woose98@ajou.ac.kr - something@gamil.com 
+#### `E-mail` : - woose98@ajou.ac.kr - jws5022@naver.com
