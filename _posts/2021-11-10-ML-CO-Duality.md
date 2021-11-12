@@ -42,7 +42,7 @@ $$
 
 
 
-여기서 표현하는 $$ g_i(x) $$ 는 `Inequality constraints` 이며, $$ h_i(x) $$ 는 `Homologous or Equality constraints` 입니다. 각 m개와 q개 만큼 제약 조건이 존재합니다. 그러나 이런 모습을 갖췄다고 `Convex Problem`  이라 하지 않습니다.
+여기서 표현하는 $ g_i(x) $ 는 `Inequality constraints` 이며, $ h_i(x) $ 는 `Homologous or Equality constraints` 입니다. 각 m개와 q개 만큼 제약 조건이 존재합니다. 그러나 이런 모습을 갖췄다고 `Convex Problem`  이라 하지 않습니다.
 
 ## Satisfied conditions
 
@@ -113,7 +113,7 @@ det(\nabla^2f(x))=
 (48x_1-72x_2)(108x_1-182x_2)-(-72x_1+108x_2)^2
 $$
 
-눈치 빠른 분들은 이걸 풀지 않으셨겠죠. 3차식은 두번의 변곡점이 생기기에 `Convex function`  을 보장해주지 않습니다. 그래서 두 번 미분을 하더라도 다변량 함수로서 남아있죠. 그래서 $$ 48x_1-72x_2 $$부터 늘 음수인지 양수인지 보장할 수 없습니다. 이제 진짜 올바른 예제를 보시죠.
+눈치 빠른 분들은 이걸 풀지 않으셨겠죠. 3차식은 두번의 변곡점이 생기기에 `Convex function`  을 보장해주지 않습니다. 그래서 두 번 미분을 하더라도 다변량 함수로서 남아있죠. 그래서 $ 48x_1-72x_2 $부터 늘 음수인지 양수인지 보장할 수 없습니다. 이제 진짜 올바른 예제를 보시죠.
 $$
 \begin{array}{l}
 \text{Convexity test}\\
