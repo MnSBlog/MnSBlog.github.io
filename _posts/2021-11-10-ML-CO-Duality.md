@@ -12,7 +12,7 @@ tags:
   - Convex Optimization
   - Analytically method
   - Deviation
-math: true
+use_math: true
 author: 안상현
 ---
 
