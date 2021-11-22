@@ -223,10 +223,10 @@ $$
 
 $$
 \begin{array}{l}
-\text{Norm ball}: &\{x| \abs \ x-x_c\ \abs \le r\}\\
-\text{Euclidean ball}: &\{x|\abs{\abs{x-x_c}}_2 \le r\}\\
+\text{Norm ball}: &\{x|\ | \ x-x_c\ | \le r\}\\
+\text{Euclidean ball}: &\{x|\ ||x-x_c||_2 \le r\}\\
 \text{Ellipsoid}: &\{x|(x-x_c)^TP^{-1}(x-x_c)  \le 1\}\\
-\text{Norm cone}: &\{(x,t)|\abs{\abs{x}}\le t\}\\
+\text{Norm cone}: &\{(x,t)|\ ||x||\le t\}\\
 \end{array}
 $$
 
