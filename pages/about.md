@@ -5,7 +5,7 @@ description: ABOUT US! Modeling & Simulation Lab
 permalink: /about/
 ---
 
-<img src="./../assets/img/about/title.jpg" height="900px" width="600px" align="center">
+<img src="https://drive.google.com/uc?export=view&id=1MSExdIhzVSVSeHTdWKFxgOxsoy9skFKV" height="900px" width="600px" align="center">
 
 # Modeling & Simulaation Lab
 
@@ -13,12 +13,12 @@ permalink: /about/
 
 
 
-| 구분            | 내용                                   |
-| --------------- | -------------------------------------- |
-| 지도교수        | 박상철(Sangchul Park)                  |
-| 위치            | 아주대학교 팔달관(Paldal Hall) #822    |
-| 전화번호        | 031-219-3327                           |
-| 담당자 / 이메일 | 이관우(Kwawoo Lee) / 294boy@ajou.ac.kr |
+| 구분            | 내용                                     |
+| --------------- | ---------------------------------------- |
+| 지도교수        | 박상철(Sangchul Park)                    |
+| 위치            | 아주대학교 팔달관(Paldal Hall) #822      |
+| 전화번호        | 031-219-3327                             |
+| 담당자 / 이메일 | 이관우(Kwawoo Lee) / cool8790@ajou.ac.kr |
 
 
 
