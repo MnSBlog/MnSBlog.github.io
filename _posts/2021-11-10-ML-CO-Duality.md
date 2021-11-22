@@ -481,9 +481,11 @@ $$
 
 
 $$
-\mathcal{L}(x,\lambda,\nu)=((-\frac{1}{2}P^{-1}(A^T\lambda-C^T\nu))^TP+A^T\lambda+C^T\nu)^T(-\frac{1}{2}P^{-1}(A^T\lambda-C^T\nu))-b^T\lambda-d^T\nu\\
-=\frac{1}{2}(A^T\lambda+C^T\nu)^T(-\frac{1}{2}P^{-1}(A^T\lambda-C^T\nu))-b^T\lambda-d^T\nu\\
-=-\frac{1}{4}\lambda^TAP^{-1}A^T\lambda-b^T\lambda
+\begin{array}{l}
+\mathcal{L}(x,\lambda,\nu)&=((-\frac{1}{2}P^{-1}(A^T\lambda-C^T\nu))^TP+A^T\lambda+C^T\nu)^T(-\frac{1}{2}P^{-1}(A^T\lambda-C^T\nu))-b^T\lambda-d^T\nu\\
+&=\frac{1}{2}(A^T\lambda+C^T\nu)^T(-\frac{1}{2}P^{-1}(A^T\lambda-C^T\nu))-b^T\lambda-d^T\nu\\
+&=-\frac{1}{4}\lambda^TAP^{-1}A^T\lambda-b^T\lambda
+\end{array}
 $$
 
 
