@@ -41,19 +41,177 @@ author: 안상현
 
 ## Kinematic Models
 
-운동학(`Kinematic`)
+ 운동학(`Kinematic`) 은 캐릭터 애니메이션이 계속 지속되는 특징이 있는만큼 데이터의 규모가 클수록, 효과적입니다. `Kinematic model`은 보통 모션 클립의 데이터셋이 주어지면, 컨트롤러는 상황에 맞는 동작을 위한 적합한 클립을 선택하는 용으로 만들어집니다. 관련 연구로는 `Agrawal and Van de Panne 2016; Lee et al. 2010b; Safonova and Hodgins 2007` 이 있습니다.
+
+ 가우시안 프로세스(`GP: Gaussian Process`)를 이용하여 `Eigen value` 형태의 `Orthogonal`한 히든 밸류를 통해 모션들을 통합한 연구도 있습니다. `Levine et al. 2012; Ye and Liu 2010b` 이 연구는 딥러닝 모델을 적용한 확장 연구도 있는데요. 예를 들어, `autoencoder`를 적용한 모델, `phasefunctioned networks`를 생성모델에 적용했습니다. 이는 `Holden et al. 2017, 2016` 을 참고해주세요.
+
+ 고품질의 데이터를 이용한 방법론도 있습니다. 새로운 시뮬레이션은 행동들을 통합하는데 있어서 제한적이지만, 행동과 환경들이 복잡한 연속 환경에서는 피저블한 행동들을 빠르게 수집하는 것이 중요합니다. 그래서 사전지식을 이용하여 앞으로의 적절한 행동예측을 만드는 것이 하나의 해결법입니다. 당장 눈에 보이는 모든 데이터들을 다 담는 것보다 좋을 수 있겠죠. `DISCUSSION` 에서 후술하겠습니다.
 
 ## Physics-based Models
 
+캐릭터를 제어하는 컨트롤러를 디자인하는 것은 여전히 도전문제로 남아 있습니다. 보통은 전문가들의 역량에 의지하여 구현됩니다. 부분적으로 `Locomotion` 은 강건한 컨트롤러 디자인한 연구성과가 있습니다. 사람 모델을 쓰기도 사람이 아닌 모델도 있죠. `Coros et al. 2010; Ye and Liu 2010a; Yin et al. 2007` 입니다. 궤적 최적화에 대한 연구도 참고해주세요. `Mordatch et al. 2012; Wampler et al. 2014` 저희는 사전에 단일 `model-free` 프레임워크에서 넓은 범위의 모션 스킬들에 접근한 적이 있습니다. 예를 들면 `Walks, Kicks, Flips` 등을 말이죠. 모션을 모방하는 것과 그런 모션에 대한 요구로는 컴팩트하고 빠른 제어를 할 수 있는 `policies` 가 있습니다. 행동에 대한 데이터는 높은 차원의 `state` 와 `observation` 입니다.
+
 ## Reinforcement Learning
+
+ 캐릭터 애니메이션 컨트롤러를 개발하기 위한 많은 최적화 테크닉으로는 강화학습을 주로 사용합니다. 강화학습의 한 방법인 `Value Iteration`을 이용한 연구는 태스크가 주어지면 컨트롤러를 통해 모션 시퀀스를 만든 연구가 있습니다. `Lee et al. 2010b; Levine et al. 2012` 유사한 접근법으로는 `Coros et al. 2009; Peng et al. 2105`가 있습니다. 근데 이는 최근연구가 아니기에 좀 더 최근으로 다가가면 `Deep neural network` 를 이용한 RL 모델이 있습니다. `Brockman et al. 2016a; Duan et al. 2016; Liu and Hodgines 2017; Peng et al. 2016; Rajeswaran et al. 2017; Teh et al. 2017`을 참고해주세요. 또 다른 강화학습의 한 방법인 `Policy iteration` 혹은 `Policy gradient method` 는  연속 제어 문제에 대한 선택의 알고리즘으로서 생겨났습니다. `Schulman et al. 2015a, 2017; Sutton and Barto 1998` 이를 이용한 연구는 `Merel et al. 2017; Schulman et al. 2015b` 를 참고하시고 자연 현상에 대한 `Reward function design`은 `Lee et al. 2014; Wang et al. 2012`가 있습니다.  또 최근에 모션캡처를 모방하는 `GAIL(Ho and Ermon 2016)` 도 참고해주세요. `DeepLoco(Peng et al. 2107a)` 본 논문과 유사한 연구입니다. 
 
 ## Motion Imitation
 
+ 어떤 모션을 모방하는 것은 역사적으로 오래됐습니다. `Planer Character`를 이용한 `bipedal locomotion`의 연구는 `Sharon and van de Panne 2005; Sok et al. 2007` 이 있습니다. `Model based` 방법과 `Policy search` 를 쓴 3D humanoid 연구는 `Lee et al. 2010a; Muico et al. 2009; Yin et al. 2007` 이 있습니다. `Reward function`을 적용한 `Deep RL`의 시도는 `Peng et al. 2017a, b` 이며, 이 논문에서는 더 어려운 동작들에 대해서 시도했고 두 중요성을 알게 됐습니다. 초기 상태와 학습 에피소드의 조기 종료의 중요성을 이 연구를 통해 알게됐습니다.
+
+ 사전지식을 이용한 컨트롤러 설계의 좋은 예시는 `Sampling-Based Controller(SAMCON)` 으로 `Liu et al. 2016, 2010` 을 참고해주시고 이에 대한 확장 연구로는 `Liu and Hodgins 2017`을 참고해주세요.
+
 # <span style="color:#2E64FE">OVERVIEW</span>
+
+저희가 구현한 시스템은 레퍼런스 모션과 일치하는 캐릭터 모델을 입력으로 하고 `Reward function` 을 통한 Task를 정의합니다. 참조 모션을 모방하기위한 컨트롤러를 붙입니다. 컨트롤러는 PID 제어중에 PD제어(`Proportional-Derivative`)를 사용합니다.이 논문에서 사용된 `Terminologies` 는 아래와 같습니다.
+
+
+$$
+\text{a sequence of target poses: }\hat{q_t}\\
+\text{A control policy: } \pi(a_t|s_t,g_t)\\
+\text{Character state: } s_t,\ \text{a task-specific goal: }g_t, \text{and action: } a_t\\
+$$
+
+
+`Reward` 는 분할된 수식으로서 모방 점수(
+$$
+r^I(s_t,\ a_t)
+$$
+)와 태스크 목표 점수(
+$$
+r^G(s_t,\ a_t,\ g_t)
+$$
+를 받습니다.
+
+끝으로 에이전트 학습은 `Neural networks` 와 `Proximal policy optimization algorithm` 을 이용했습니다. 이 구조를 채택함에 있어서 `Schulman et al. 2017` 을 참고했습니다.
 
 # <span style="color:#2E64FE">BACKGROUND</span>
 
+ 가장 먼저, 이 연구에서 가장 일반적인 강화학습을 설계했습니다. 최대 보상(`Reward`)을 이끌어내는 `Policy`로 인해 `Agent`가 어떤 `action`을 하고 그로 인해 환경(`Environment`)과 상호작용을 합니다. 간결함을 위해서 `Terminology` 를 정리했습니다. 가장 기본적인 목표(
+$$
+\text{goal }g,
+$$
+), 그리고 `Policy`는 
+$$
+\pi(a|s)
+$$
+models로, 조건부 분포입니다. 이런 조건부 분포를 설명할 때는
+$$
+a \in A \text{ given a state } s \in S
+$$
+라고 말합니다. 이는 매 컨트롤러에서 나오는 그 순간 타임스텝에 대한 단일 액션입니다. 이게 꾸준히 이어진다면 시퀀스죠. 또한 `agent`는 현재 `state`를 알 수 있고 `Policy`로 부터 `action`을 얻습니다. 그러면 상호작용을 통해서 `Environment`는 새로운 `state`(
+$$
+s'=s_{t+1}
+$$
+)을 가져옵니다. 그리고 `Environment`의 상호작용은 받아온 `action`과  현재 `state`를 이용하여 역학을 반영한 동작을 하고 `reward`(
+$$
+r_t
+$$
+)를 추산합니다. 파라미터가 반영된 `Policy`는 
+$$
+\pi_\theta(a|s)
+$$
+ 로 표현하며, 강화학습의 목적은 `Expected return`을 최대가 되도록 최적화된 파라미터(
+$$
+\theta^*
+$$
+)를 학습시키는 것입니다.
+
+
+$$
+\text{Expected Return }J(\theta)=\mathbb{E}_{\tau\sim p_\theta(\tau)}\left[\sum^T_{t=0}\gamma^tr_t\right]
+$$
+
+
+순서대로 봅시다. 가장 먼저, `parameter`에 의한 행동 확률은
+
+
+$$
+p_\theta(\tau)=p(s_0)\prod_{t=0}^{T-1}p(s_{t+1}|s_t,\ a_t)\pi_\theta(a_t|s_t)
+$$
+
+
+위 처럼 나옵니다. 정책
+$$
+\pi_\theta
+$$
+으로부터 가능한 모든 궤적을 
+$$
+\tau=(s_0,\ a_0, s_1,\dots,\ a_{T-1},\ s_T)
+$$
+라고 볼 수 있습니다. 그리고 가장 초기 `state` 분포는 
+$$
+p(s_0)
+$$
+라고 표현하구요. 그리고 `Expected` 안에 있는 
+$$
+\left[\sum_{t=0}^T\gamma^tr_t\right]
+$$
+ 식은 모든 궤적에 대한 시간 흐름으로 받는 `return` 값 입니다. 그런데 여기서 `T`는 강화학습 환경에서 Open-end식 끝이 없는 상황도 염두해야하고, 미래에 대한 믿음으로 사용하는 discount factor 
+$$
+\gamma \in [0,\ 1]
+$$
+ 도 어떤 값으로 설정할지 고려해야 합니다.
+
+
+
+여기서 유명한 방법론이 하나가 있는데요. `gradient method`를 `policy`에 적용한 `Sutton et al. 2001`의 연구가 있습니다. Expected return의 기울기 
+$$
+\nabla_\theta J(\theta)
+$$
+는 `Policy`를 따르는 궤적 샘플을 예측할 수 있는 건데요. 전체적인 식 구성은 아래와 같습니다.
+
+
+$$
+\nabla_\theta J(\theta)=E_{s_t\sim d_\theta(s_t),a_t\sim \pi_\theta(a_t|s_t)}\left[\nabla_\theta\log(\pi_\theta(a_t|s_t))\mathcal{A_t}\right]
+$$
+
+
+식이 조금 복잡해졌는데, 아까처럼 천천히 풀어나갑시다. 먼저 
+$$
+d_\theta(s_t)
+$$
+는 
+$$
+\pi_\theta
+$$
+ 를 기반으로 한 `state`의 분포입니다. 그리고 
+$$
+\mathcal{A_t}
+$$
+는 t시점에 이뤄지는 `Advantage`라고 얘기하며 이를 좀 더 풀어서 표현하면 `Reward` - `Value function` 으로 볼 수 있습니다.
+
+
+$$
+\mathcal{A_t}=R_t-V(s_t)
+$$
+
+
+여기서 `Advantage`에 들어가는 `Reward`는 
+$$
+R_t=\sum_{l=0}^{T-t}\gamma^lr_{t+1}
+$$
+입니다. 그리고 `Value function`은 
+$$
+V(s_t)=\mathbb{E}[R_t|\pi_\theta,\ s_t]
+$$
+로서 결국 진짜 `Reward`와 예상되는 `Reward`의 편차를 이용하여, 예상한 것보다 얼마나 더 좋은 결과를 가져왔는지 얘기합니다. 이러한 구조는 `generalized advantage estimator GAE, [Schulman et al. 2015b]`를 참고해주세요.
+
 # <span style="color:#2E64FE">POLICY REPRESENTATION</span>
+
+ 위 `Background`의 설명에서 `Policy`가, 그 중에서도 `Parametric policy`가 얼마나 중요한지 말했습니다. 강화학습의 목적은 `Optimal parameter`를 찾는 것이라, `Poilicy`가 온전하고 강건하게 구현되어 있어야 합니다. 그래서 본 연구에서는 모션 크릷이 주어지면, 타겟 포즈의 시퀀스 
+$$
+\hat{q}_t
+$$
+를 표현합니다. 본 연구는 물리적 시뮬레이션 환경에서 요구하는 모션들을 그대로 따라하는 정책을 만드는 것이 목적입니다. 자연스레 어떤 추가적인 모션을 만족해야합니다. 
+
+## States and Actions
+
+## Network
+
+## Reward
+
+
 
 # <span style="color:#2E64FE">TRAINING</span>
 
