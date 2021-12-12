@@ -4,7 +4,7 @@ layout: post
 title: Design Luxury reward function in Reinforcement Learning
 subtitle: Review paper X. B. Peng's paper 'Deep Mimic' about Reinforcement Learning
 description: Review paper X. B. Peng's paper 'Deep Mimic' about Reinforcement Learning
-image: https://drive.google.com/uc?export=view&id=1cviYyQgeBiA9i9dNiDAQ8AMkD8jFr0xw
+image: https://drive.google.com/file/d/1cviYyQgeBiA9i9dNiDAQ8AMkD8jFr0xw/view?usp=sharing
 category: Paper Review
 tags:
   - Reinforcement Learning
@@ -206,6 +206,12 @@ $$
 를 표현합니다. 본 연구는 물리적 시뮬레이션 환경에서 요구하는 모션들을 그대로 따라하는 정책을 만드는 것이 목적입니다. 자연스레 어떤 추가적인 모션을 만족해야합니다. 
 
 ## States and Actions
+
+`state`는 캐릭터의 몸통 설정을 설명합니다. 이게 다는 아니고, 각 포지션에 따른 연결관계의 특징들도 포함되며  4 방향씩 묶어서 회전이나, 선형, 곡선 움직임도 있습니다. 모든 특징들은 캐릭터의 로컬 좌표계에서 계산되어 이러한 연산 과정에서는 위상변수(`phase variable`)가 적용됩니다. 이는 
+$$
+\phi\in[0,\ 1]
+$$
+로 표현됩니다.사실 애니메이션 변수로 봐도 되는데, 모션이 시작되면 0이고 모션이 종료되면 1이 됩니다. 그래서 매 모션의 사이클마다 0으로 초기화 됩니다.
 
 ## Network
 
