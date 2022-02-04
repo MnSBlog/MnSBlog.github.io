@@ -4,7 +4,7 @@ layout: post
 title: Design Luxury reward function in Reinforcement Learning
 subtitle: Review paper X. B. Peng's paper 'Deep Mimic' about Reinforcement Learning
 description: Review paper X. B. Peng's paper 'Deep Mimic' about Reinforcement Learning
-image: https://drive.google.com/file/d/1cviYyQgeBiA9i9dNiDAQ8AMkD8jFr0xw/view?usp=sharing
+image: https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/posts/PaperReview/Reinforcement Learning/1209_Fig_1.png
 category: Paper Review
 tags:
   - Reinforcement Learning
