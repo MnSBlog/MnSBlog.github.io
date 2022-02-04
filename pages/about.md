@@ -5,7 +5,7 @@ description: ABOUT US! Modeling & Simulation Lab
 permalink: /about/
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=1MSExdIhzVSVSeHTdWKFxgOxsoy9skFKV" height="900px" width="600px" align="center">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/title/title.jpg" height="900px" width="600px" align="center">
 
 # Modeling & Simulaation Lab
 

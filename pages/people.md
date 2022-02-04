@@ -9,7 +9,7 @@ permalink: /people/
 
 
 
-<img src="https://drive.google.com/uc?export=view&id=1PwIZos6foQV-6uYLrd1lPUahtTs5c0sK" height="330px" width="300px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/Boss.jpg" height="330px" width="300px" align="left">
 
 ## **박상철(Sangchul Park)**
 
@@ -25,7 +25,7 @@ Smart Factory
 
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=1jAiX63Ur2ejEokORPuJFoVsBQq1qt7Mi" height="330px" width="300px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/Semi-Boss.jpg" height="330px" width="300px" align="left">
 
 ## **장대순(Daesoon Jang)**
 
@@ -45,7 +45,7 @@ Smart Factory
 
 
 
-<img src="https://drive.google.com/uc?export=view&id=1dKmtrBNSvkSlh8JvajBNd-ruiBTcd3x0" height="330px" width="300px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/KwanWoo.jpg" height="330px" width="300px" align="left">
 
 ## **이관우(Kwanwoo Lee)** 정해인
 
@@ -61,7 +61,7 @@ other one
 
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=1HxfZsDQLNxgUvBYfF-FY2TlcLxdCZ0cM" height="330px" width="250px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/Duedates.jpg" height="330px" width="250px" align="left">
 
 ## **이기한(Kihan Lee)** 차은우
 
@@ -77,7 +77,7 @@ other one
 
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=14etEiBA8uOIGXByC_291Ylb9H6eGIEyI" height="330px" width="300px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/DongWook.jpg" height="330px" width="300px" align="left">
 
 ## **김동욱(Dongwook Kim)** 이동욱
 
@@ -97,7 +97,7 @@ other one
 
 
 
-<img src="https://drive.google.com/uc?export=view&id=1K6V9iviGt_oRni_ejXKtDjDMTlCtK22B" height="400px" width="300px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/SunJae.jpg" height="400px" width="300px" align="left">
 
 ## **이선재(Sunjae Lee)**
 
@@ -111,7 +111,7 @@ PHM(Prognostics and Health Management), ADT(Accelerated Degradation Test)
 
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=1wiNPA1mAOaPhGsnKzfK-S4XTMw-bBFtH" height="400px" width="400px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/KyuJin.jpg" height="400px" width="400px" align="left">
 
 ## **정규진(Kyujin Jung)**
 
@@ -125,7 +125,7 @@ second_
 
 ___
 
-<img src="https://drive.google.com/uc?export=view&id=1AGb-KH3nPP4j1dE1CgxXVTny6H7DW3zt" height="400px" width="225px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/MinHyeok.jpg" height="400px" width="225px" align="left">
 
 ## **김민혁(Minhyuk Kim)**
 
@@ -139,7 +139,7 @@ second_
 
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=1h7ftW2ypopJJx4fahsPsMsoNo3U8LL9a" height="400px" width="300px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/Hyun.jpg" height="400px" width="300px" align="left">
 
 ## **양 현(Hyun Yang)**
 
@@ -153,7 +153,7 @@ Sleeping
 
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=1D93vy-JR5hhxZWiUKdVKQpImzI6HtfF6" height="400px" width="300px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/GeonWoo.jpg" height="400px" width="300px" align="left">
 
 ## **김건우(Geonwoo Kim)**
 
@@ -167,7 +167,7 @@ two
 
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=1zfRlk5voIakoQ7G8p3MsIae9OWh73SfD" height="400px" width="300px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/SiYong.jpg" height="400px" width="300px" align="left">
 
 ## **송시용(SiYong Song)**
 
@@ -181,7 +181,7 @@ Sleeping
 
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=1TphVV8ClVrDW7fSvvmBz3MOzKw7YGgy4" height="400px" width="300px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/SangHyeon.jpg" height="400px" width="300px" align="left">
 
 ## **안상현(Sanghyeon An)**
 
@@ -195,7 +195,7 @@ Semiconductor something
 
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=19BcdEU94Zd8CJ1zvZfrLgjk9Jo5X-PZ_" height="400px" width="300px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/MinGu.jpg" height="400px" width="300px" align="left">
 
 ## **정민구(MinGu Jung)**
 
@@ -213,7 +213,7 @@ Semiconductor something
 
 
 
-<img src="https://drive.google.com/uc?export=view&id=1u4YGG69UzeN7GuNWFnPEc_I_ZCbKTega" height="300px" width="250px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/ByungSun.jpg" height="320px" width="250px" align="left">
 
 ## **이병선(Byungsun Lee)**
 
@@ -227,7 +227,7 @@ two
 
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=1SPHTVwhoNo8US0LNaRTBOMK0Rc-liGSn" height="400px" width="400px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/SeungHwan.jpg" height="400px" width="400px" align="left">
 
 ## **장승환(Seunghwan Jang)**
 
@@ -241,7 +241,7 @@ two
 
 ---
 
-<img src="https://drive.google.com/uc?export=view&id=1CS2sVhcotOavszYlVDfV3mWhGaUXWF60" height="400px" width="400px" align="left">
+<img src="https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/people/WooSung.jpg" height="400px" width="400px" align="left">
 
 ## **전우성(Woosung Jeon)**
 
