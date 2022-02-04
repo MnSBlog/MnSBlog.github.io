@@ -4,7 +4,7 @@ layout: post
 title: Creational Pattern(Design Pattern)
 subtitle: Understanding GoF's Design Pattern
 description: Understanding GoF's Design Pattern
-image: https://drive.google.com/file/d/1cviYyQgeBiA9i9dNiDAQ8AMkD8jFr0xw/view?usp=sharing
+image: https://cdn.jsdelivr.net/gh/MnSBlog/MnSBlog.github.io@master/assets/img/posts/Knowledge/DesignPattern/1_Abstract factory.png
 category: Knowledge
 tags:
   - Basic
